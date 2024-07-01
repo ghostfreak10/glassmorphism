@@ -1,60 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;1,700&family=Rubik&display=swap');
+
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body{
-   display: flex; 
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
-   background-image: url('full.webp');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   overflow: hidden;
-}
-
-.container{
-    height: 450px;
-    width: 350px;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    border: none;
-}
-
-.container h1{
-    text-align: center;
-}
-.logo div{
-    background: rgba(255, 255, 255, 0.15);
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.logo div:hover{
-    background: rgba(255, 255, 255, 0.45);
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-.logo{
-    color: #fff;
-    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    background-image: url('50-Beautiful-and-Minimalist-Presentation-Backgrounds-013.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
 }
+
+.container{
+    position: absolute;
+    width: 768px;
+    min-height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+form{
+    background-color: rgba(225,225,225,0.1);
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    margin: 16px 0;
+}
+
+.social div{
+    background-color: rgba(255,255,255,0.15);
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.social div a i{
+    color: #fff;
+}
+
+.social div:hover{
+    background-color: rgba(255,255,255,0.35);
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input{
+    background-color: rgba(255,255,255,0.15);
+    color: #fff;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+.input-group input:focus{
+    background-color: rgba(255,255,255,0.25);
+}
+
+.input-group input::placeholder{
+    color: #fff;
+
+}
+
+button{
+    color: #fff;
+    background-color: rgba(255,255,255,0.15);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 15px 45px;
+    font-weight: 600px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius:10px;
+}
+
+button:hover{
+    background-color: rgba(255,255,255,0.25);
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    transition: all 0.5s;
+}
+
+form{
+    border-radius: 20px;
+ } 
